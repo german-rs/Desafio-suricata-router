@@ -13,11 +13,11 @@ const routes = [
     component: () => import(/* webpackChunkName: "about" */ '../views/ProductosView.vue'),
     props: () => {
       return{
-        rutaImagen: '/desayunos.jpg',
+        rutaImagen: './img/desayunos.jpg',
         titulo: 'Desayunos',
         descripcion: 'Contamos con desayunos nutritivos y deliciosos.',
         precio: '$2000',
-        cantidad: 'Para dos personas'
+        promocion: 'Para dos personas'
       }
     } 
   },

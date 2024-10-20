@@ -21,7 +21,7 @@
             type: String,
             required: true            
         },
-        cantidad: {
+        promocion: {
             type: String,
             required: true            
         }
@@ -47,7 +47,7 @@
                 </div>
                 <ul class="list-group list-group-flush">
                     <li class="list-group-item">Precio: {{ precio }}</li>
-                    <li class="list-group-item">Cantidad: {{ cantidad }}</li>
+                    <li class="list-group-item">Cantidad: {{ promocion }}</li>
                 </ul>
                 <div class="card-body">
                     <a href="#" class="card-link">Ver más</a>
@@ -55,7 +55,7 @@
                 </div>
             </div>
         </article>
-        
+
     </section>
 </template>
 
@@ -68,13 +68,12 @@
     justify-content: center;
     align-items: center;
 }
-
 .articulo-producto{
+    max-width: 800px;
     width: 100%;
     padding: 2em;
 }
 .seccion-productos__boton{
     text-align: center;
 }
-
 </style>
